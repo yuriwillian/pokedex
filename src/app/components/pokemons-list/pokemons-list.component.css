@@ -1,0 +1,5 @@
+.cardPokemon{
+    flex-wrap: nowrap;
+    display: inline-block;
+    margin-bottom: 210px;
+}
