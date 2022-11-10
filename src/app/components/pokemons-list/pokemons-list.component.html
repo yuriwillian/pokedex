@@ -1,5 +1,6 @@
-<p>OLHE O CONSOLE!</p>
+<h1>POKEDEX</h1>
 <div *ngFor="let pokemon of pokemons" class="cardPokemon">
+    <button>Capturar</button>
     <h1>{{this.pokemon.name}}</h1>
     <h2>ID: {{capturaId(this.pokemon.url)}}</h2>
     <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{{capturaId(this.pokemon.url)}}.png" alt="">

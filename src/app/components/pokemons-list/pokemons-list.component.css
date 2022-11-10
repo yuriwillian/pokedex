@@ -1,5 +1,18 @@
 .cardPokemon{
+    text-align: center;
     flex-wrap: nowrap;
     display: inline-block;
-    margin-bottom: 210px;
+    margin-bottom: 180px;
+}
+button {
+    padding: 10px;
+    width: 200px;
+    border-style: none;
+    border-radius: 80px;
+    background-color: green;
+    color: white;
+    font: bold 20px arial;
+}
+button:hover {
+    background-color: red;
 }
