@@ -27,9 +27,5 @@ export class PokemonsListComponent implements OnInit {
     return id
   }
 
-  teste(){
-    return "assets/fundo.png"
-  }
-
 
 }
